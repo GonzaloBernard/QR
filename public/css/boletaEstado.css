@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #054596;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.95'%3E%3Ccircle fill='%23054596' cx='50' cy='0' r='50'/%3E%3Cg fill='%2307479a' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%230a499d' cx='50' cy='100' r='50'/%3E%3Cg fill='%230d4ba1' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23104da4' cx='50' cy='200' r='50'/%3E%3Cg fill='%23134fa7' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%231751aa' cx='50' cy='300' r='50'/%3E%3Cg fill='%231a53ad' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%231e55b0' cx='50' cy='400' r='50'/%3E%3Cg fill='%232257b2' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%232659b4' cx='50' cy='500' r='50'/%3E%3Cg fill='%232a5cb6' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%232e5eb8' cx='50' cy='600' r='50'/%3E%3Cg fill='%233361ba' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%233863bb' cx='50' cy='700' r='50'/%3E%3Cg fill='%233d66bd' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%234269bd' cx='50' cy='800' r='50'/%3E%3Cg fill='%234b6dbc' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%235371ba' cx='50' cy='900' r='50'/%3E%3Cg fill='%235a76b8' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23627AB7' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.container {
+    background-color: #ccae76;
+    border-radius: 5px;
+    box-shadow: -1px -1px 44px -5px rgba(204, 174, 118, 1);
+    padding: 20px;
+    color: #000;
+}
+
+tbody {
+    color: #000;
+}
+
+.btnPagar {
+    background-color: #94D58D;
+}
+
+.btnDescargar {
+    background-color: #415A89;
+    color: antiquewhite;
+}
+
+.btnPagar,
+.btnDescargar {
+    box-shadow: 16px 15px 26px -13px rgba(0, 0, 0, 0.53);
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.3s ease;
+    margin-left: 5px;
+    font-weight: bold;
+    border-color: #9BAEBC;
+}
+
+.btnPagar:hover,
+.btnDescargar:hover {
+    transform: scale(1.05);
+    box-shadow: 16px 15px 26px -13px rgba(0, 0, 0, 0.8);
+}
