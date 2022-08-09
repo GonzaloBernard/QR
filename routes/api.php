@@ -19,6 +19,5 @@ Route::group(['prefix' => 'v1', 'as' => 'api.', 'namespace' => 'Api\V1\Admin', /
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    Route::get('aaaaaa', 'AaaaaaController@getAaaaaa')->name('getAaaaaa');
-    Route::post('aaaaaa', 'AaaaaaController@postAaaaaa')->name('postAaaaaa');
+    Route::post('qr', 'QRApiController@getQR')->name('getQR');
 });
